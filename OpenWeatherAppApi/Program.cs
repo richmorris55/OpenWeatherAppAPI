@@ -1,9 +1,16 @@
-﻿namespace OpenWeatherAppApi;
+﻿using System.Threading.Channels;
+using Newtonsoft.Json.Linq;
+
+namespace OpenWeatherAppApi;
 class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+       WeatherAppAPI.GetWeather();
     }
+
+    
+
+        
 }
 
